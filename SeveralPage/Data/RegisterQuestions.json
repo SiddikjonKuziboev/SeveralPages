@@ -1,0 +1,53 @@
+[
+    {
+        "question": "Darajangiz?",
+        "answers": [
+            {
+                "answer_text": "o'rta",
+                "sub_answers": null
+            },
+            {
+                "answer_text": "o`rtaMaxsus",
+                "sub_answers": null
+            },
+            {
+                "answer_text": "oliyFinished",
+                "sub_answers": null
+            },
+            {
+                "answer_text": "oliyNotFinished",
+                "sub_answers": null
+            }
+        ]
+    },
+    {
+        "question": "Oilaviy statusingiz",
+        "answers": [
+            {
+                "answer_text": "turmushga chiqmaganman",
+                "sub_answers": null
+            },
+            {
+                "answer_text": "turmushga chiqish arafasidaman",
+                "sub_answers": null
+            },
+            {
+                "answer_text": "turmushga chiqqanman – erim bilan birga yashayman",
+                "sub_answers": null
+            },
+            {
+                "answer_text": "turmushga chiqqanman, lekin erim bilan har hil uyda yashaymiz",
+                "sub_answers": null
+            },
+            {
+                "answer_text": "bevaman",
+                "sub_answers": [
+                    {
+                        "answer_text": "Kimni qaramog’ida?",
+                        "sub_answers": ["davlat qaramog’ida", "12", "43"]
+                    }
+                ]
+            }
+        ]
+    }
+]
