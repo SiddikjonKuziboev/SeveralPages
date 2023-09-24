@@ -4,47 +4,131 @@
         "answers": [
             {
                 "answer_text": "o'rta",
+                "isSelected": false,
+                "question_text": null,
                 "sub_answers": null
             },
             {
                 "answer_text": "o`rtaMaxsus",
+                "isSelected": false,
+                "question_text": null,
                 "sub_answers": null
             },
             {
                 "answer_text": "oliyFinished",
+                "isSelected": false,
+                "question_text": null,
                 "sub_answers": null
             },
             {
                 "answer_text": "oliyNotFinished",
+                "isSelected": false,
+                "question_text": null,
                 "sub_answers": null
             }
         ]
     },
     {
-        "question": "Oilaviy statusingiz",
+        "question": "Darajangiz?",
         "answers": [
             {
-                "answer_text": "turmushga chiqmaganman",
+                "answer_text": "o'rta",
+                "isSelected": false,
+                "question_text": null,
                 "sub_answers": null
             },
             {
-                "answer_text": "turmushga chiqish arafasidaman",
+                "answer_text": "o`rtaMaxsus",
+                "isSelected": false,
+                "question_text": null,
                 "sub_answers": null
             },
             {
-                "answer_text": "turmushga chiqqanman – erim bilan birga yashayman",
+                "answer_text": "oliyFinished",
+                "isSelected": false,
+                "question_text": null,
+                "sub_answers": null
+            },
+            {
+                "answer_text": "oliyNotFinished",
+                "isSelected": false,
+                "question_text": null,
+                "sub_answers": null
+            }
+        ]
+    },
+    {
+        "question": "Darajangiz?",
+        "answers": [
+            {
+                "answer_text": "o'rta",
+                "isSelected": false,
+                "question_text": null,
+                "sub_answers": null
+            },
+            {
+                "answer_text": "o`rtaMaxsus",
+                "isSelected": false,
+                "question_text": null,
+                "sub_answers": null
+            },
+            {
+                "answer_text": "oliyFinished",
+                "isSelected": false,
+                "question_text": null,
+                "sub_answers": null
+            },
+            {
+                "answer_text": "oliyNotFinished",
+                "isSelected": false,
+                "question_text": null,
+                "sub_answers": null
+            }
+        ]
+    },
+    {
+        "question": "Ijtimoiy statusingiz",
+        "answers": [
+            {
+                "answer_text": "studentman",
+                "isSelected": false,
+                "question_text": null,
+                "sub_answers": null
+            },
+            {
+                "answer_text": "ishlayman (qonuniy)",
+                "isSelected": false,
+                "question_text": null,
+                "sub_answers": null
+            },
+            {
+                "answer_text": "bozorda ishlab pul topaman",
+                "isSelected": false,
+                "question_text": null,
                 "sub_answers": null
             },
             {
                 "answer_text": "turmushga chiqqanman, lekin erim bilan har hil uyda yashaymiz",
+                "isSelected": false,
+                "question_text": null,
                 "sub_answers": null
             },
             {
-                "answer_text": "bevaman",
+                "answer_text": "uy bekasiman",
+                "isSelected": false,
+                "question_text": "Kim to'sqinlik qilyapti?",
                 "sub_answers": [
                     {
-                        "answer_text": "Kimni qaramog’ida?",
-                        "sub_answers": ["davlat qaramog’ida", "12", "43"]
+                        "answer_text": "o’zimni hohishim bilan uyda o’tiraman",
+                        "isSelected": false,
+                        "question_text": null,
+                        "sub_answers": ["ota-onamni", "erimni", "aka-ukamni"]
+                    },
+                    {
+                        "answer_text": "ruhsat yo'q",
+                        "isSelected": false,
+                        "question_text": null,
+                        "sub_answers": null
                     }
                 ]
             }

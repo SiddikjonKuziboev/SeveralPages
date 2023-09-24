@@ -16,6 +16,9 @@
 		4DE63F2B2ABF705300550644 /* RegisterQuestions.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DE63F2A2ABF705300550644 /* RegisterQuestions.json */; };
 		4DE63F2E2ABF7A8F00550644 /* RegisterQuestionDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE63F2D2ABF7A8F00550644 /* RegisterQuestionDM.swift */; };
 		4DE63F312ABF7AE800550644 /* Assisant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE63F302ABF7AE800550644 /* Assisant.swift */; };
+		4DE63F342AC02A8300550644 /* AddressDetailedTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE63F332AC02A8300550644 /* AddressDetailedTVC.swift */; };
+		4DE63F372AC0359E00550644 /* SubMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE63F352AC0359E00550644 /* SubMainVC.swift */; };
+		4DE63F382AC0359E00550644 /* SubMainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DE63F362AC0359E00550644 /* SubMainVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		4DE63F2A2ABF705300550644 /* RegisterQuestions.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = RegisterQuestions.json; sourceTree = "<group>"; usesTabs = 0; };
 		4DE63F2D2ABF7A8F00550644 /* RegisterQuestionDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterQuestionDM.swift; sourceTree = "<group>"; };
 		4DE63F302ABF7AE800550644 /* Assisant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assisant.swift; sourceTree = "<group>"; };
+		4DE63F332AC02A8300550644 /* AddressDetailedTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressDetailedTVC.swift; sourceTree = "<group>"; };
+		4DE63F352AC0359E00550644 /* SubMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubMainVC.swift; sourceTree = "<group>"; };
+		4DE63F362AC0359E00550644 /* SubMainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubMainVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +84,11 @@
 		4DE63F222ABF67B300550644 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4DE63F322AC02A7A00550644 /* TVC */,
 				4DE63F232ABF67C600550644 /* MainVC.swift */,
 				4DE63F242ABF67C600550644 /* MainVC.xib */,
+				4DE63F352AC0359E00550644 /* SubMainVC.swift */,
+				4DE63F362AC0359E00550644 /* SubMainVC.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -106,6 +115,14 @@
 				4DE63F302ABF7AE800550644 /* Assisant.swift */,
 			);
 			path = Connector;
+			sourceTree = "<group>";
+		};
+		4DE63F322AC02A7A00550644 /* TVC */ = {
+			isa = PBXGroup;
+			children = (
+				4DE63F332AC02A8300550644 /* AddressDetailedTVC.swift */,
+			);
+			path = TVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +185,7 @@
 			files = (
 				4DE63F262ABF67C600550644 /* MainVC.xib in Resources */,
 				4DE63F2B2ABF705300550644 /* RegisterQuestions.json in Resources */,
+				4DE63F382AC0359E00550644 /* SubMainVC.xib in Resources */,
 				4DE63F1B2ABF677B00550644 /* LaunchScreen.storyboard in Resources */,
 				4DE63F182ABF677B00550644 /* Assets.xcassets in Resources */,
 			);
@@ -180,8 +198,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DE63F342AC02A8300550644 /* AddressDetailedTVC.swift in Sources */,
 				4DE63F0F2ABF677900550644 /* AppDelegate.swift in Sources */,
 				4DE63F2E2ABF7A8F00550644 /* RegisterQuestionDM.swift in Sources */,
+				4DE63F372AC0359E00550644 /* SubMainVC.swift in Sources */,
 				4DE63F312ABF7AE800550644 /* Assisant.swift in Sources */,
 				4DE63F252ABF67C600550644 /* MainVC.swift in Sources */,
 				4DE63F112ABF677900550644 /* SceneDelegate.swift in Sources */,

@@ -9,11 +9,15 @@ import Foundation
 
 struct SubAnswer: Codable {
     var answer_text: String
+    var isSelected: Bool
+    var question_text: String?
     var sub_answers: [String]?
 }
 
 struct Answer: Codable {
     var answer_text: String
+    var isSelected: Bool
+    var question_text: String?
     var sub_answers: [SubAnswer]?
 }
 

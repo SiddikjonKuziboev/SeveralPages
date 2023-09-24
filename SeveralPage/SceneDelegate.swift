@@ -51,7 +51,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     private func setUpWindow(_ scene: UIWindowScene) {
         window = UIWindow(frame: scene.coordinateSpace.bounds)
         window?.windowScene = scene
-        window?.rootViewController = MainVC()
+        let nav = UINavigationController(rootViewController: MainVC())
+        window?.rootViewController = nav
         window?.makeKeyAndVisible()
     }
     
